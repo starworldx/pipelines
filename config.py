@@ -11,5 +11,5 @@ try:
 except ImportError:
     print("dotenv not installed, skipping...")
 
-API_KEY = os.getenv("PIPELINES_API_KEY", "0p3n-w3bu!")
+API_KEY = os.getenv("PIPELINES_API_KEY", "")
 PIPELINES_DIR = os.getenv("PIPELINES_DIR", "./pipelines")
